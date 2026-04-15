@@ -1,0 +1,31 @@
+section:
+  name: Projects
+  id: projects
+  enable: true
+  weight: 3
+  showOnNavbar: true
+
+buttons:
+- name: All
+  filter: "all"
+- name: AI
+  filter: "ai"
+- name: Platform
+  filter: "platform"
+
+projects:
+- name: SDLC Pilot
+  role: Creator
+  timeline: "2025 - Present"
+  repo: https://github.com/aymenmastouri/aicodegencrew
+  url: "https://sdlc.aymenmastouri.io"
+  summary: "AI-powered SDLC automation platform. Analyzes codebases, generates architecture docs (C4/Arc42), plans development work. 9-phase pipeline with evidence-first RAG, template-first document generation, and LLM quality gates. 745+ tests."
+  tags: ["ai", "platform"]
+
+- name: AI Lab Platform
+  role: Creator
+  timeline: "2026 - Present"
+  repo: https://github.com/aymenmastouri/k8s-manifests
+  url: "https://ai.aymenmastouri.io"
+  summary: "Self-hosted sovereign AI platform on k3s. 12 HTTPS endpoints, GitOps with ArgoCD App-of-Apps, Authentik SSO, Ollama LLM runtime, LiteLLM proxy, Qdrant vector DB, Langfuse tracing, MLflow experiments, full Prometheus/Grafana/Loki observability."
+  tags: ["platform", "ai"]
