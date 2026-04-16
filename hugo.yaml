@@ -118,6 +118,7 @@ params:
 
   header:
     layout: fixed
+    showLanguageSwitcher: true
 
   footer:
     showCopyright: true
