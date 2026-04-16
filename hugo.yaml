@@ -12,9 +12,12 @@ enableRobotsTXT: true
 
 languages:
   en:
-    languageName: English
+    languageName: EN
+    languageCode: en
+    title: "Aymen Mastouri"
     weight: 1
     params:
+      displayName: EN
       author:
         name: "Aymen Mastouri"
         image: "img/aymen.png"
@@ -38,9 +41,12 @@ languages:
           weight: 3
 
   de:
-    languageName: Deutsch
+    languageName: DE
+    languageCode: de
+    title: "Aymen Mastouri"
     weight: 2
     params:
+      displayName: DE
       author:
         name: "Aymen Mastouri"
         image: "img/aymen.png"
@@ -64,9 +70,12 @@ languages:
           weight: 3
 
   fr:
-    languageName: Français
+    languageName: FR
+    languageCode: fr
+    title: "Aymen Mastouri"
     weight: 3
     params:
+      displayName: FR
       author:
         name: "Aymen Mastouri"
         image: "img/aymen.png"
