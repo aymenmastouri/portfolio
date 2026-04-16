@@ -49,8 +49,7 @@ params:
   homepage:
     layout: profile
     homepageImage: img/aymen.png
-    showRecent: true
-    recentLimit: 4
+    showRecent: false
 
   article:
     showDate: true
