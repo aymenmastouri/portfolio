@@ -64,8 +64,8 @@ params:
   author:
     name: "Aymen Mastouri"
     image: "img/aymen.png"
-    headline: "AI Solution Architect"
-    bio: "Building sovereign AI platforms on Kubernetes. 10+ years enterprise IT, now designing LLM-powered development pipelines with full GitOps and observability."
+    headline: "Lead Solution Architect | Enterprise & AI"
+    bio: "10+ years leading enterprise architecture & delivery. Currently integrating AI into complex systems — RAG, LLM-based pipelines, SDLC automation. Building sovereign AI platforms on self-hosted Kubernetes with full GitOps and observability."
     links:
       - github: https://github.com/aymenmastouri
       - linkedin: https://linkedin.com/in/aymen-mastouri

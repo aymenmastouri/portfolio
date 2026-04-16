@@ -1,4 +1,4 @@
 ---
 title: "Aymen Mastouri"
-description: "AI Solution Architect building sovereign AI platforms on Kubernetes"
+description: "Lead Solution Architect | Enterprise & AI — Driving AI adoption, system stabilization & delivery excellence"
 ---
