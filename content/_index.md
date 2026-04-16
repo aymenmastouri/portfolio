@@ -11,3 +11,6 @@ About Me
 {{< button href="/projects/" >}}
 Projects
 {{< /button >}}
+{{< button href="https://github.com/aymenmastouri" target="_blank" >}}
+GitHub
+{{< /button >}}
