@@ -1,5 +1,4 @@
 baseURL: https://aymenmastouri.io
-languageCode: en
 title: "Aymen Mastouri"
 copyright: "© 2026 Aymen Mastouri"
 
@@ -10,6 +9,85 @@ module:
 defaultContentLanguage: en
 enableEmoji: true
 enableRobotsTXT: true
+
+languages:
+  en:
+    languageName: English
+    weight: 1
+    params:
+      author:
+        name: "Aymen Mastouri"
+        image: "img/aymen.png"
+        headline: "Lead Solution Architect | Enterprise & AI"
+        bio: "Lead Solution Architect with 10+ years in enterprise IT. Currently driving AI adoption — RAG pipelines, LLM integration, SDLC automation. Building sovereign AI platforms on self-hosted Kubernetes with full GitOps and observability."
+        links:
+          - github: https://github.com/aymenmastouri
+          - linkedin: https://linkedin.com/in/aymen-mastouri
+          - email: mailto:aymen@aymenmastouri.io
+          - globe: https://ai.aymenmastouri.io
+    menus:
+      main:
+        - name: About
+          pageRef: about
+          weight: 1
+        - name: Projects
+          pageRef: projects
+          weight: 2
+        - name: Blog
+          pageRef: blog
+          weight: 3
+
+  de:
+    languageName: Deutsch
+    weight: 2
+    params:
+      author:
+        name: "Aymen Mastouri"
+        image: "img/aymen.png"
+        headline: "Lead Solution Architect | Enterprise & AI"
+        bio: "Lead Solution Architect mit 10+ Jahren Erfahrung in Enterprise-IT. Aktueller Fokus: AI-Adoption — RAG-Pipelines, LLM-Integration, SDLC-Automatisierung. Aufbau souveräner AI-Plattformen auf selbstgehostetem Kubernetes mit vollem GitOps und Observability."
+        links:
+          - github: https://github.com/aymenmastouri
+          - linkedin: https://linkedin.com/in/aymen-mastouri
+          - email: mailto:aymen@aymenmastouri.io
+          - globe: https://ai.aymenmastouri.io
+    menus:
+      main:
+        - name: Über mich
+          pageRef: about
+          weight: 1
+        - name: Projekte
+          pageRef: projects
+          weight: 2
+        - name: Blog
+          pageRef: blog
+          weight: 3
+
+  fr:
+    languageName: Français
+    weight: 3
+    params:
+      author:
+        name: "Aymen Mastouri"
+        image: "img/aymen.png"
+        headline: "Lead Solution Architect | Enterprise & AI"
+        bio: "Lead Solution Architect avec 10+ ans d'expérience en IT d'entreprise. Actuellement focalisé sur l'adoption de l'IA — pipelines RAG, intégration LLM, automatisation SDLC. Construction de plateformes IA souveraines sur Kubernetes auto-hébergé avec GitOps et observabilité complète."
+        links:
+          - github: https://github.com/aymenmastouri
+          - linkedin: https://linkedin.com/in/aymen-mastouri
+          - email: mailto:aymen@aymenmastouri.io
+          - globe: https://ai.aymenmastouri.io
+    menus:
+      main:
+        - name: À propos
+          pageRef: about
+          weight: 1
+        - name: Projets
+          pageRef: projects
+          weight: 2
+        - name: Blog
+          pageRef: blog
+          weight: 3
 
 markup:
   goldmark:
@@ -32,8 +110,8 @@ taxonomies:
   category: categories
 
 params:
-  colorScheme: blowfish
-  defaultAppearance: dark
+  colorScheme: noir
+  defaultAppearance: light
   autoSwitchAppearance: true
   enableSearch: true
   enableCodeCopy: true
@@ -59,26 +137,3 @@ params:
     showWordCount: false
     showEdit: false
     showBreadcrumbs: true
-
-  author:
-    name: "Aymen Mastouri"
-    image: "img/aymen.png"
-    headline: "Lead Solution Architect | Enterprise & AI"
-    bio: "10+ years leading enterprise architecture & delivery. Currently integrating AI into complex systems — RAG, LLM-based pipelines, SDLC automation. Building sovereign AI platforms on self-hosted Kubernetes with full GitOps and observability."
-    links:
-      - github: https://github.com/aymenmastouri
-      - linkedin: https://linkedin.com/in/aymen-mastouri
-      - email: mailto:aymen@aymenmastouri.io
-      - globe: https://ai.aymenmastouri.io
-
-menus:
-  main:
-    - name: About
-      pageRef: about
-      weight: 1
-    - name: Projects
-      pageRef: projects
-      weight: 2
-    - name: Blog
-      pageRef: blog
-      weight: 3
